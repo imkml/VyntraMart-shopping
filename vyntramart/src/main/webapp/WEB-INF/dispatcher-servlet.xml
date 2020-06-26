@@ -16,6 +16,9 @@
 	<context:component-scan
 		base-package="net.virtusa.vyntramart.controller" />
 
+	<context:component-scan
+		base-package="net.virtusa.vyntramartbackend.daoimpl" />
+
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 
