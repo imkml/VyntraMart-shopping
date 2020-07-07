@@ -8,6 +8,7 @@
 <spring:url var="img" value="/resources/img" />
 <spring:url var="js" value="/resources/js" />
 <spring:url var="Source" value="/resources/Source" />
+
 <!-- Getting directory routePath -->
 <c:set var="contextRoot" value="${pageContext.request.contextPath}" />
 <!DOCTYPE html>
